@@ -1,0 +1,26 @@
+$mainColor: #FF0000;
+
+.page-name {
+    color: inherit;
+    margin-top: 20px;
+}
+
+.my-alert {
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.my-alert-red {
+  @extend .my-alert;
+  background: #FFE591;
+}
+
+.my-alert {
+  p {
+    margin-bottom: 0;
+  }
+}
